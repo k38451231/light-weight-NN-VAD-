@@ -1,7 +1,11 @@
-# Demo
+# Demo Video 
 <https://youtu.be/cWd5Yz30CEI?si=Qf5_znDkPowZ3t5d>
 
 # Data Preparation
+
+## Dateset
+1. LibriSpeech
+2. MUSAN Dataset
 
 ## Steps
 1. **Speech selection**
@@ -16,7 +20,6 @@
 
 4. **Labeling**
    - Run Silero VAD on the **reverberant speech** to get:
-     - `lab_sample` (label per-sample)
      - `lab_frame` (label per-frame with 10 ms hop, e.g., 160 samples @16 kHz)
 
 5. **Add noise**
